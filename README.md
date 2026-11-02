@@ -65,9 +65,10 @@ legacy tables that the current interface does not display.
 
 ## Code signing policy
 
-Trusted code signing is **not configured or approved yet**. The project intends
-to apply to [SignPath Foundation](https://signpath.org/) for free signing after
-it meets the foundation's eligibility and reputation requirements.
+Trusted code signing is **not configured or approved yet**. An application was
+submitted to [SignPath Foundation](https://signpath.org/) on 2 November 2026.
+The application discloses that this is a new project with limited reputation;
+eligibility and provider approval remain pending.
 There is no claim of affiliation, approval, or a warning-free release.
 
 Only binaries built from this public source may be submitted for signing.
@@ -92,8 +93,11 @@ positions with updated colors and standard Windows controls. Some original
 transaction and report screens could not be inspected because of legacy
 OLE/ActiveX errors. Exact visual parity for those screens is still unverified.
 
-Native runtime tests, visual checks, trusted launch validation, and the complete
-Windows compatibility matrix must pass before a production release.
+The [Microsoft static build and synthetic inventory/storage tests passed](https://github.com/VercaaLLC/Dijla/actions/runs/41396470058),
+including the PE dependency check and two-file empty preview creation. This was
+tested on the GitHub Actions Windows Server 2022 runner. Visual checks, trusted
+launch validation, and the desktop Windows compatibility matrix remain pending.
+The unsigned preview is not a production release.
 
 ## License
 

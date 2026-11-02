@@ -1,6 +1,10 @@
 # Proposed free code-signing process
 
-Status: **not applied, not approved, and not signed**.
+Status: **application submitted on 2 November 2026; approval pending. Not signed.**
+
+The application identifies Dijla as a new public project, discloses its limited
+reputation and preview-only download, and requests an eligibility assessment.
+Submission is not acceptance and creates no claim of provider affiliation.
 
 The intended provider is [SignPath Foundation](https://signpath.org/), subject to
 its [conditions](https://signpath.org/terms.html). Approval is discretionary and
@@ -17,9 +21,10 @@ automatically qualify it.
 - Approve signing requests manually. Never expose signing secrets to pull-request
   jobs or submit binaries produced by an untrusted or unreviewed branch.
 
-The maintainer of the public repository is initially responsible for authorship,
-review and signing approval. The specific account must be listed here when the
-application is completed. Additional contributors need a documented review path.
+The repository owner, [VercaaLLC](https://github.com/VercaaLLC), is responsible
+for authorship and review and is the proposed signing approver. Signing roles
+have not been provisioned by SignPath. Additional contributors need a documented
+review path.
 
 ## Submission boundary
 
